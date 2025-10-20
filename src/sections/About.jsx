@@ -154,6 +154,7 @@ import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/FrameWorks";
+import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp, FaGithub } from "react-icons/fa";
 
 const About = () => {
   const grid2Container = useRef();
@@ -168,19 +169,24 @@ const About = () => {
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             alt="Irfan Shazid"
           />
-          
+
           {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-          
+
           {/* Animated content */}
           <div className="z-10 relative p-6 w-full">
             <p className="headtext text-white mb-3 animate-slide-in-up">
-              Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 animate-pulse">Irfan Shazid</span>
+              Hi, I'm{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 animate-pulse">
+                Irfan Shazid
+              </span>
             </p>
             <p className="subtext text-gray-200 animate-slide-in-up delay-300">
-              Over the last 1 year, I developed my <span className="text-yellow-300 font-semibold">frontend</span> and <span className="text-yellow-300 font-semibold">backend</span> dev skills to deliver dynamic web applications.
+              Over the last 1 year, I developed my{" "}
+              <span className="text-yellow-300 font-semibold">frontend</span> and{" "}
+              <span className="text-yellow-300 font-semibold">backend</span> dev skills to deliver dynamic web applications.
             </p>
-            
+
             {/* Animated CTA Button */}
             <div className="mt-4 animate-bounce-in delay-500">
               <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl">
@@ -196,6 +202,50 @@ const About = () => {
           <div className="absolute bottom-8 left-6 animate-float delay-1000">
             <div className="w-2 h-2 bg-purple-400 rounded-full opacity-60"></div>
           </div>
+
+          {/* Social Media Icons */}
+          <div className="absolute bottom-4 left-6 flex space-x-4 text-white animate-slide-in-up">
+            <a
+              href="https://facebook.com/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition-colors duration-300 hover:scale-110 animate-float delay-[100ms]"
+            >
+              <FaFacebook size={24} />
+            </a>
+            <a
+              href="https://instagram.com/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-pink-500 transition-colors duration-300 hover:scale-110 animate-float delay-[200ms]"
+            >
+              <FaInstagram size={24} />
+            </a>
+            <a
+              href="https://linkedin.com/in/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400 transition-colors duration-300 hover:scale-110 animate-float delay-[300ms]"
+            >
+              <FaLinkedin size={24} />
+            </a>
+            <a
+              href="https://wa.me/yourwhatsapplink"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-green-500 transition-colors duration-300 hover:scale-110 animate-float delay-[400ms]"
+            >
+              <FaWhatsapp size={24} />
+            </a>
+            <a
+              href="https://github.com/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-300 transition-colors duration-300 hover:scale-110 animate-float delay-[500ms]"
+            >
+              <FaGithub size={24} />
+            </a>
+          </div>
         </div>
 
         {/* Grid 2 - Skills Showcase (Replacement) */}
@@ -207,11 +257,11 @@ const About = () => {
               </div>
               <p className="headtext text-white">Skills</p>
             </div>
-            
+
             {/* Animated skill tags */}
             <div className="flex flex-wrap justify-center gap-2 animate-stagger-fade">
-              {["HTML","CSS","Tailwind CSS","JavaScript", "React", "Node.js", "Express.js","MongoDB","Firebase","C","C++","Git",  "GitHub", ].map((skill, index) => (
-                <span 
+              {["HTML", "CSS", "Tailwind CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", "Firebase", "C", "C++", "Git", "GitHub",].map((skill, index) => (
+                <span
                   key={skill}
                   className="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-white text-sm hover:bg-white/30 transition-all duration-300 hover:scale-110"
                   style={{ animationDelay: `${index * 100}ms` }}
@@ -220,12 +270,12 @@ const About = () => {
                 </span>
               ))}
             </div>
-            
+
             <p className="subtext text-center text-gray-600 animate-fade-in delay-1000">
               Continuously learning and building
             </p>
           </div>
-          
+
           {/* Animated background elements */}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute top-1/4 left-1/4 w-8 h-8 border-2 border-blue-400 rounded-full animate-ping"></div>
@@ -244,7 +294,7 @@ const About = () => {
           <figure className="absolute left-[30%] top-[10%] group-hover:scale-110 transition-transform duration-700">
             <Globe />
           </figure>
-          
+
           {/* Floating location pin */}
           <div className="absolute bottom-6 right-6 animate-bounce">
             <div className="bg-white/20 backdrop-blur-sm rounded-full p-2">
@@ -267,11 +317,11 @@ const About = () => {
             <div className="animate-bounce-in delay-500">
               <CopyEmailButton />
             </div>
-            
+
             {/* Animated connection dots */}
             <div className="flex gap-2 mt-4">
               {[0, 1, 2].map((i) => (
-                <div 
+                <div
                   key={i}
                   className="w-2 h-2 bg-white rounded-full animate-pulse"
                   style={{ animationDelay: `${i * 200}ms` }}
@@ -293,7 +343,7 @@ const About = () => {
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125 group-hover:scale-150 transition-transform duration-1000">
             <Frameworks />
           </div>
-          
+
           {/* Animated background pattern */}
           <div className="absolute inset-0 opacity-5">
             <div className="absolute top-0 left-0 w-32 h-32 border-t-2 border-l-2 border-blue-400 animate-pulse"></div>
