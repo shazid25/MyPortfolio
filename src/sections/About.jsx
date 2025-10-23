@@ -206,7 +206,7 @@ const About = () => {
           {/* Social Media Icons */}
           <div className="absolute bottom-4 left-6 flex space-x-4 text-white animate-slide-in-up">
             <a
-              href="https://facebook.com/yourprofile"
+              href="https://web.facebook.com/mr.warrior03"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500 transition-colors duration-300 hover:scale-110 animate-float delay-[100ms]"
@@ -214,7 +214,7 @@ const About = () => {
               <FaFacebook size={24} />
             </a>
             <a
-              href="https://instagram.com/yourprofile"
+              href="https://www.instagram.com/irfan_shazid/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-pink-500 transition-colors duration-300 hover:scale-110 animate-float delay-[200ms]"
@@ -222,7 +222,7 @@ const About = () => {
               <FaInstagram size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/irfan-shazid/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition-colors duration-300 hover:scale-110 animate-float delay-[300ms]"
@@ -238,7 +238,7 @@ const About = () => {
               <FaWhatsapp size={24} />
             </a>
             <a
-              href="https://github.com/yourprofile"
+              href="https://github.com/shazid25"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300 transition-colors duration-300 hover:scale-110 animate-float delay-[500ms]"
@@ -260,7 +260,7 @@ const About = () => {
 
             {/* Animated skill tags */}
             <div className="flex flex-wrap justify-center gap-2 animate-stagger-fade">
-              {["HTML", "CSS", "Tailwind CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", "Firebase", "C", "C++", "Git", "GitHub",].map((skill, index) => (
+              {["HTML", "CSS", "Tailwind CSS", "JavaScript(ES6+)", "React", "Node.js", "Express.js", "MongoDB", "C", "C++"].map((skill, index) => (
                 <span
                   key={skill}
                   className="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-white text-sm hover:bg-white/30 transition-all duration-300 hover:scale-110"
@@ -284,24 +284,41 @@ const About = () => {
         </div>
 
         {/* Grid 3 - Time Zone */}
-        <div className="md:col-span-3 grid-black-color grid-3 relative overflow-hidden group hover:scale-[1.02] transition-transform duration-500">
-          <div className="z-10 w-[50%]">
-            <p className="headtext animate-slide-in-right">Time Zone</p>
-            <p className="subtext animate-slide-in-right delay-300">
-              I'm based in Mars, and open to remote work worldwide
+
+       <div className="md:col-span-2 bg-gradient-to-br from-green-500 to-emerald-600 grid-2 relative overflow-hidden group hover:scale-[1.02] transition-transform duration-500">
+          <div className="flex flex-col items-center justify-center gap-6 size-full p-6">
+            <div className="text-center animate-rotate-in">
+              <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-180 transition-transform duration-700">
+                <span className="text-white text-2xl">🛠️</span>
+              </div>
+              <p className="headtext text-white">Tools</p>
+            </div>
+
+            {/* Animated tools tags */}
+            <div className="flex flex-wrap justify-center gap-2 animate-stagger-fade">
+              {["Firebase", "Git", "GitHub","Vercel","Netlify"].map((skill, index) => (
+                <span
+                  key={skill}
+                  className="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-white text-sm hover:bg-white/30 transition-all duration-300 hover:scale-110"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+
+            <p className="subtext text-center text-gray-200 animate-fade-in delay-1000">
+              Continuously learning and building
             </p>
           </div>
-          <figure className="absolute left-[30%] top-[10%] group-hover:scale-110 transition-transform duration-700">
-            <Globe />
-          </figure>
 
-          {/* Floating location pin */}
-          <div className="absolute bottom-6 right-6 animate-bounce">
-            <div className="bg-white/20 backdrop-blur-sm rounded-full p-2">
-              <span className="text-white text-lg">📍</span>
-            </div>
+          {/* Animated background elements */}
+          <div className="absolute inset-0 opacity-10">
+            <div className="absolute top-1/4 left-1/4 w-8 h-8 border-2 border-green-300 rounded-full animate-ping"></div>
+            <div className="absolute bottom-1/3 right-1/4 w-6 h-6 border-2 border-emerald-300 rounded-full animate-pulse"></div>
           </div>
         </div>
+
 
         {/* Grid 4 - Collaboration */}
         <div className="md:col-span-3 grid-special-color grid-4 group hover:scale-[1.02] transition-transform duration-500">
