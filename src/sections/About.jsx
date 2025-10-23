@@ -285,10 +285,10 @@ const About = () => {
 
         {/* Grid 3 - Time Zone */}
 
-       <div className="md:col-span-2 bg-gradient-to-br from-green-500 to-emerald-600 grid-2 relative overflow-hidden group hover:scale-[1.02] transition-transform duration-500">
+       <div className="md:col-span-2 rounded-2xl bg-gradient-to-br from-gray-400 to-gray-600 grid-2 relative overflow-hidden group hover:scale-[1.02] transition-transform duration-500">
           <div className="flex flex-col items-center justify-center gap-6 size-full p-6">
             <div className="text-center animate-rotate-in">
-              <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-180 transition-transform duration-700">
+              <div className="w-16 h-16 bg-gradient-to-r from-gray-600 to-gray-900 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-180 transition-transform duration-700">
                 <span className="text-white text-2xl">🛠️</span>
               </div>
               <p className="headtext text-white">Tools</p>
