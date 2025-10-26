@@ -201,7 +201,7 @@ function Navigation() {
           className={`nav-link ${isActive("/work") ? "text-white font-medium" : "text-neutral-400 hover:text-white"}`}
           to="/work"
         >
-          Work
+          Projects
         </Link>
       </li>
       <li>
@@ -281,7 +281,7 @@ const Navbar = () => {
                 className="nav-link text-neutral-400 hover:text-white py-2 transition-colors"
                 to="/work"
               >
-                Work
+                Projects
               </Link>
               <Link 
                 className="nav-link text-neutral-400 hover:text-white py-2 transition-colors"
