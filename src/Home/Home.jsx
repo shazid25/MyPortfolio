@@ -10,7 +10,7 @@ import Contact from "../sections/Contact";
 
 const Home = () => {
     return (
-        <div>
+        <div className='container mx-auto max-w-7xl'>
             <Hero />
             <About />
             <Projects />

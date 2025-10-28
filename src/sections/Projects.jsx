@@ -59,7 +59,7 @@ const Projects = () => {
 
   return (
     <section onMouseMove={handleMouseMove} className="relative c-space section-spacing">
-      <h2 className="text-heading">My Selected Projects</h2>
+      <h2 className="text-heading">My Projects</h2>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
 
       {Array.isArray(myProjects) &&

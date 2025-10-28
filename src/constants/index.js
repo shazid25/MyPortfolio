@@ -11,9 +11,10 @@ export const myProjects = [
       "Sellers manage listings, inventory, and orders via dedicated dashboards.",
       "Admin approves seller applications, monitors transactions, and manages users.",
       "Users can apply to become sellers with admin-reviewed documentation.",
-      "Secure authentication with email verification and role-based access.",
-      "Real-time inventory management and prescription upload for regulated medicines."
+      "Admin email: Jorina@gmail.com & Admin password: Jorina@gmail.com",
+      "Seller email: kuddus@gmail.com & Seller password:kuddus@gmail.com"
     ],
+
     href: "https://medicare-8d262.web.app/",
     logo: "",
     image: "/assets/projects/accessories.png",
@@ -51,23 +52,56 @@ export const myProjects = [
     ],
   },
 
-  //second project
+
+//2nd project
 
 
    {
     id: 2,
+    title: "Animated Zentry Gaming Web",
+    description:
+      "",
+    subDescription: [
+      "A animated website inspired by Zentry",
+      "A art of frontend",
+      "Hold the middel of the banner to change video",
+    ],
+    href: "https://unrivaled-blini-806c07.netlify.app/",
+    logo: "",
+    image: "/assets/projects/zentry.png",
+    tags: [
+      {
+        id: 1,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+    
+      {
+        id: 6,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+
+
+  //3rd project
+
+
+   {
+    id: 3,
     title: "Plant Health Tracker",
     description:
-      "A comprehensive multi-vendor medicine e-commerce platform with role-based access control",
+      "Use can track the health details of a plant",
     subDescription: [
-      "Built a full-stack medicine marketplace connecting patients with multiple sellers.",
-      "Implemented three-tier user system: Users, Sellers, and Admin.",
-      "Users can browse, compare, and order medicines with secure payments.",
-      "Sellers manage listings, inventory, and orders via dedicated dashboards.",
-      "Admin approves seller applications, monitors transactions, and manages users.",
-      "Users can apply to become sellers with admin-reviewed documentation.",
-      "Secure authentication with email verification and role-based access.",
-      "Real-time inventory management and prescription upload for regulated medicines."
+      "You can track the health data using it",
+      "User can add own plant into the web",
+      "Users can browse, compare the health details",
     ],
     href: "https://plant-client.web.app/",
     logo: "",
@@ -107,22 +141,15 @@ export const myProjects = [
   },
 
 
-  //3rd project
+  //4th project
 
    {
-    id: 3,
+    id: 4,
     title: "Animated AirPods Pro Banner",
     description:
-      "A comprehensive multi-vendor medicine e-commerce platform with role-based access control",
+      "A fully animated AirPods Pro Banner",
     subDescription: [
-      "Built a full-stack medicine marketplace connecting patients with multiple sellers.",
-      "Implemented three-tier user system: Users, Sellers, and Admin.",
-      "Users can browse, compare, and order medicines with secure payments.",
-      "Sellers manage listings, inventory, and orders via dedicated dashboards.",
-      "Admin approves seller applications, monitors transactions, and manages users.",
-      "Users can apply to become sellers with admin-reviewed documentation.",
-      "Secure authentication with email verification and role-based access.",
-      "Real-time inventory management and prescription upload for regulated medicines."
+      "Its just a creative animated Banner",
     ],
     href: "https://radiant-kitsune-b7a53d.netlify.app/",
     logo: "",
@@ -147,7 +174,9 @@ export const myProjects = [
     ],
   },
 
-  //4th project
+  
+
+  //5th project
 
   
 
@@ -177,7 +206,7 @@ export const experiences = [
     job: "Job:Web Development",
     date: "2025-Present",
     contents: [
-      "At Jounurls Media Co., I work as a Web Developer, responsible for designing, developing, and maintaining dynamic and responsive websites for media and digital campaigns. My role involves building user-friendly interfaces, optimizing performance, and ensuring seamless functionality across devices. I collaborate closely with the creative and marketing teams to deliver visually appealing and engaging web experiences. Using modern technologies like HTML, CSS,Tailwind CSS, JavaScript, React, Node.js , Express.js and MongoDB   I help bring innovative ideas to life and enhance the company’s digital presence through efficient, scalable, and high-performing web solutions."
+      "At Journals Media Co., I work as a Web Developer, responsible for designing, developing, and maintaining dynamic and responsive websites for media and digital campaigns. My role involves building user-friendly interfaces, optimizing performance, and ensuring seamless functionality across devices. I collaborate closely with the creative and marketing teams to deliver visually appealing and engaging web experiences. Using modern technologies like HTML, CSS,Tailwind CSS, JavaScript, React, Node.js , Express.js and MongoDB   I help bring innovative ideas to life and enhance the company’s digital presence through efficient, scalable, and high-performing web solutions."
     ],
   },
 
