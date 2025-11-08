@@ -26,7 +26,7 @@ const Routelayouts = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <main className="mt-16"> {/* Added mt-16 to push content below navbar */}
+      <main className="mt-16">
         <Outlet />
       </main>
       <Footer />
