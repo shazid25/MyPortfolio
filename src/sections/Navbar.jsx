@@ -32,7 +32,7 @@ function Navigation({ onLinkClick, isMobile = false }) {
     >
       {navItems.map((item) => (
         <li key={item.path}>
-          <Link 
+          <Link
             className={`nav-link block py-1 md:py-2 transition-all duration-300 ${
               isActive(item.path) 
                 ? "text-white font-semibold scale-105" 
