@@ -108,7 +108,7 @@ const About = () => {
           <div className="z-10 relative p-8 w-full mt-auto">
             <div className="max-w-2xl animate-slide-in-up delay-300">
               <p className="text-lg md:text-xl text-gray-200 mb-6 leading-relaxed">
-                Over the last 1 year, I've mastered <span className="text-yellow-300 font-bold">frontend</span> and{" "}
+                Over the last 1 year, I've mastered <span className="text-yellow-400 font-bold">frontend</span> and{" "}
                 <span className="text-yellow-300 font-bold">backend</span> development to create dynamic, scalable web applications
                 that deliver exceptional user experiences.
               </p>
