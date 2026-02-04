@@ -1,26 +1,131 @@
 export const myProjects = [
 
 
+  // {
+  //   id: 1,
+  //   title: "GreenCart - Fresh Grocery Delivery",
+  //   description:
+  //     "A modern full-stack grocery e-commerce platform focused on fresh produce and fast delivery.",
+  //   subDescription: [
+  //     "Built a user-friendly platform for ordering fresh groceries, fruits, and daily essentials.",
+  //     "Features categorized shopping for organic veggies, fresh fruits, dairy, bakery, and more.",
+  //     "Implements a streamlined cart and checkout process for a seamless user experience.",
+  //     "Highlights key selling points: fastest delivery, freshness guarantee, and affordable prices.",
+  //     "Includes a subscription section for users to get the latest offers and exclusive discounts.",
+  //     "Trusted by thousands of customers, aiming to simplify the grocery shopping experience.",
+      
+  //   ],
+  //   href: "https://greencart-gs.vercel.app/",
+  //   logo: "",
+  //   image: "/assets/projects/grocery.jpeg",
+  //   tags: [
+      
+  //      {
+  //       id: 1,
+  //       name: "JavaScript",
+  //       path: "/assets/logos/javascript.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "React",
+  //       path: "/assets/logos/react.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Node.js",
+  //       path: "/assets/logos/nodejs.webp",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Express.js",
+  //       path: "/assets/logos/Expressjs.png",
+  //     },
+  //     {
+  //       id: 5,
+  //       name: "MongoDB",
+  //       path: "/assets/logos/mongodb.png",
+  //     },
+  //     {
+  //       id: 6,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
+
+
+{
+  id: 1,
+  title: "GreenCart - Fresh Grocery Delivery",
+  description: "A modern full-stack grocery e-commerce platform focused on fresh produce and fast delivery.",
+  subDescription: [
+    "Built a user-friendly platform for ordering fresh groceries, fruits, and daily essentials.",
+    "Features categorized shopping for organic veggies, fresh fruits, dairy, bakery, and more.",
+    "Implements a streamlined cart and checkout process for a seamless user experience.",
+    "Highlights key selling points: fastest delivery, freshness guarantee, and affordable prices.",
+    "Includes a subscription section for users to get the latest offers and exclusive discounts.",
+    "Trusted by thousands of customers, aiming to simplify the grocery shopping experience.",
+  ],
+  href: "https://greencart-gs.vercel.app/",
+  frontendRepo: "https://github.com/yourusername/greencart-frontend",
+  backendRepo: "https://github.com/yourusername/greencart-backend",
+  logo: "",
+  image: "/assets/projects/grocery.jpeg",
+  tags: [
+    {
+      id: 1,
+      name: "JavaScript",
+      path: "/assets/logos/javascript.svg",
+    },
+    {
+      id: 2,
+      name: "React",
+      path: "/assets/logos/react.svg",
+    },
+    {
+      id: 3,
+      name: "Node.js",
+      path: "/assets/logos/nodejs.webp",
+    },
+    {
+      id: 4,
+      name: "Express.js",
+      path: "/assets/logos/Expressjs.png",
+    },
+    {
+      id: 5,
+      name: "MongoDB",
+      path: "/assets/logos/mongodb.png",
+    },
+    {
+      id: 6,
+      name: "TailwindCSS",
+      path: "/assets/logos/tailwindcss.svg",
+    },
+  ],
+},
+//2nd project
+
+
   {
-    id: 1,
-    title: "GreenCart - Fresh Grocery Delivery",
-    description:
-      "A modern full-stack grocery e-commerce platform focused on fresh produce and fast delivery.",
+    id: 2,
+    title: "Edemy- A online course selling web app",
+    description: "A online course selling web app where student can buy course, and teacher can sell course",
     subDescription: [
-      "Built a user-friendly platform for ordering fresh groceries, fruits, and daily essentials.",
-      "Features categorized shopping for organic veggies, fresh fruits, dairy, bakery, and more.",
-      "Implements a streamlined cart and checkout process for a seamless user experience.",
-      "Highlights key selling points: fastest delivery, freshness guarantee, and affordable prices.",
-      "Includes a subscription section for users to get the latest offers and exclusive discounts.",
-      "Trusted by thousands of customers, aiming to simplify the grocery shopping experience.",
-      
+      "Built an interactive online course platform where students can browse, purchase, and access courses easily.",
+      "Allows teachers to create, manage, and sell courses with full control over content and pricing.",
+      "Implements secure authentication and role-based access for students and instructors.",
+      "Features a smooth enrollment and payment process for a hassle-free learning experience.",
+      "Provides lifetime or time-based course access with progress tracking for students.",
+      "Designed to connect learners and educators, making online education simple and scalable."
     ],
-    href: "https://greencart-gs.vercel.app/",
+    href: "https://lms-gs.vercel.app/",
+    frontendRepo: "https://github.com/shazid25/Learner_Hub_Client.git",
+    backendRepo: "https://github.com/shazid25/Learner_Hub_Server.git",
     logo: "",
-    image: "/assets/projects/grocery.jpeg",
+    image: "/assets/projects/edemy.jpeg",
     tags: [
-      
-       {
+      {
         id: 1,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
@@ -53,9 +158,9 @@ export const myProjects = [
     ],
   },
 
-//2nd project
+  //3rd
   {
-    id: 2,
+    id: 3,
     title: "Medicare - Multi-vendor Medicine Platform",
     description:
       "A comprehensive multi-vendor medicine e-commerce platform with role-based access control",
@@ -108,11 +213,11 @@ export const myProjects = [
   },
 
 
-//3 project
+//4 project
 
 
    {
-    id: 3,
+    id: 4,
     title: "Animated Zentry Gaming Web",
     description:
       "",
@@ -145,11 +250,11 @@ export const myProjects = [
   },
 
 
-  //4 project
+  //5 project
 
 
    {
-    id: 4,
+    id: 5,
     title: "Plant Health Tracker",
     description:
       "Use can track the health details of a plant",
@@ -196,10 +301,10 @@ export const myProjects = [
   },
 
 
-  //5 project
+  //6 project
 
    {
-    id: 5,
+    id: 6,
     title: "Animated AirPods Pro Banner",
     description:
       "A fully animated AirPods Pro Banner",
@@ -231,11 +336,17 @@ export const myProjects = [
 
   
 
-  //6th project
+  //8th project
 
   
 
 ];
+
+
+
+
+
+
 
 export const mySocials = [
   {
