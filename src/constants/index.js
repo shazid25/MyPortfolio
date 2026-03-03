@@ -376,7 +376,7 @@ export const experiences = [
     ],
   },
  {
-    title: "Web Instructor",
+    title: "Web Instructor || Volunteer",
     job: "Responsibility: Web Instructor at Shanto-Mariam University of Creative Technology, (Software Development Club)",
     date: "2025-Present",
     contents: [
