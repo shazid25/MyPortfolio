@@ -215,20 +215,19 @@ export const myProjects = [
 
 //4 project
 
-
-   {
+ {
     id: 4,
-    title: "Animated Zentry Gaming Web",
+    title: "DriveEasy",
     description:
-      "",
+      "Car rental service platform",
     subDescription: [
-      "A animated website inspired by Zentry",
-      "A art of frontend",
-      "Hold the middel of the banner to change video",
+      "A user-friendly car rental platform connecting renters with a wide range of vehicles for easy and convenient rentals.",
     ],
-    href: "https://unrivaled-blini-806c07.netlify.app/",
+    href: "https://car-rental-service-ae23a.web.app/",
+     frontendRepo: " https://github.com/shazid25/Car-Rental-Web-Client-Site.git",
+    backendRepo: " https://github.com/shazid25/car-rental-web-server-site.git",
     logo: "",
-    image: "/assets/projects/zentry.png",
+    image: "/assets/projects/car.jpeg",
     tags: [
       {
         id: 1,
@@ -240,7 +239,21 @@ export const myProjects = [
         name: "React",
         path: "/assets/logos/react.svg",
       },
-    
+      {
+        id: 3,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.webp",
+      },
+      {
+        id: 4,
+        name: "Express.js",
+        path: "/assets/logos/Expressjs.png",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.png",
+      },
       {
         id: 6,
         name: "TailwindCSS",
@@ -301,19 +314,21 @@ export const myProjects = [
   },
 
 
-  //6 project
+  //project 6
+
+
 
    {
     id: 6,
-    title: "Animated AirPods Pro Banner",
+    title: "PhuDu",
     description:
-      "A fully animated AirPods Pro Banner",
+      "A doctor appointment booking platform",
     subDescription: [
-      "Its just a creative animated Banner",
+      "A user-friendly doctor appointment booking platform connecting patients with healthcare providers for easy scheduling and access to medical services.",
     ],
-    href: "https://radiant-kitsune-b7a53d.netlify.app/",
+    href: "https://stately-khapse-4fcac2.netlify.app/",
     logo: "",
-    image: "/assets/projects/airpods.png",
+    image: "/assets/projects/phudu.jpeg",
     tags: [
       {
         id: 1,
@@ -325,7 +340,21 @@ export const myProjects = [
         name: "React",
         path: "/assets/logos/react.svg",
       },
-      
+      {
+        id: 3,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.webp",
+      },
+      {
+        id: 4,
+        name: "Express.js",
+        path: "/assets/logos/Expressjs.png",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.png",
+      },
       {
         id: 6,
         name: "TailwindCSS",
@@ -334,6 +363,49 @@ export const myProjects = [
     ],
   },
 
+
+
+  //project 7
+
+   {
+    id: 7,
+    title: "Animated Zentry Gaming Web",
+    description:
+      "",
+    subDescription: [
+      "A animated website inspired by Zentry",
+      "A art of frontend",
+      "Hold the middel of the banner to change video",
+    ],
+    href: "https://unrivaled-blini-806c07.netlify.app/",
+    logo: "",
+    image: "/assets/projects/zentry.png",
+    tags: [
+      {
+        id: 1,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+    
+      {
+        id: 6,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+
+
+  
+
+
+
+   
   
 
   //8th project
