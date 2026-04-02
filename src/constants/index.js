@@ -52,10 +52,69 @@ export const myProjects = [
   //     },
   //   ],
   // },
+{
+    id: 1,
+    title: "Learn-Stack - Enterprise LMS Platform",
+    description:
+      "A high-performance, production-ready Learning Management System with AI-powered features and premium animations.",
+    subDescription: [
+      "Architected a scalable LMS using the T3 Stack (Next.js 16, TypeScript, Prisma, Tailwind CSS 4).",
+      "Implemented an immersive UI/UX using GSAP ScrollTrigger, Framer Motion, and Lenis for smooth momentum scrolling.",
+      "Integrated Stripe for secure payment processing, subscriptions, and automated billing webhooks.",
+      "Engineered an advanced course builder with drag-and-drop curricula management and TipTap rich-text editing.",
+      "Hardened application security using Arcjet for DDoS/Bot protection and Zod for end-to-end type-safe validation.",
+      "Deployed a robust media infrastructure using AWS S3 for asset storage and Resend for automated email workflows.",
+      "Optimized for Core Web Vitals with Server Components and React 19, achieving near-instant load times."
+    ],
 
+    href: "https://learn-stack-bot9.vercel.app/",
+    frontendRepo: "https://github.com/shazid25/Learn-Stack",
+    backendRepo: "https://github.com/shazid25/Learn-Stack",
+    logo: "/assets/projects/learnStack.jpeg",
+    image: "/assets/projects/learnStack.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js 16",
+        path: "/assets/logos/nextjs.jpeg",
+      },
+      {
+        id: 2,
+        name: "React 19",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/logos/typescript.jpeg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS 4",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "Prisma",
+        path: "/assets/logos/prisma.jpeg",
+      },
+      {
+        id: 6,
+        name: "PostgreSQL",
+        path: "/assets/logos/postgresql.jpeg",
+      },
+      {
+        id: 7,
+        name: "Stripe",
+        path: "/assets/logos/stripe.svg",
+      }
+    ],
+  },
+
+  //2nd project
 
 {
-  id: 1,
+  id: 2,
   title: "GreenCart - Fresh Grocery Delivery",
   description: "A modern full-stack grocery e-commerce platform focused on fresh produce and fast delivery.",
   subDescription: [
@@ -104,59 +163,8 @@ export const myProjects = [
     },
   ],
 },
-//2nd project
 
 
-  {
-    id: 2,
-    title: "Edemy- A online course selling web app",
-    description: "A online course selling web app where student can buy course, and teacher can sell course",
-    subDescription: [
-      "Built an interactive online course platform where students can browse, purchase, and access courses easily.",
-      "Allows teachers to create, manage, and sell courses with full control over content and pricing.",
-      "Implements secure authentication and role-based access for students and instructors.",
-      "Features a smooth enrollment and payment process for a hassle-free learning experience.",
-      "Provides lifetime or time-based course access with progress tracking for students.",
-      "Designed to connect learners and educators, making online education simple and scalable."
-    ],
-    href: "https://lms-gs.vercel.app/",
-    frontendRepo: "https://github.com/shazid25/Learner_Hub_Client.git",
-    backendRepo: "https://github.com/shazid25/Learner_Hub_Server.git",
-    logo: "",
-    image: "/assets/projects/edemy.jpeg",
-    tags: [
-      {
-        id: 1,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "Node.js",
-        path: "/assets/logos/nodejs.webp",
-      },
-      {
-        id: 4,
-        name: "Express.js",
-        path: "/assets/logos/Expressjs.png",
-      },
-      {
-        id: 5,
-        name: "MongoDB",
-        path: "/assets/logos/mongodb.png",
-      },
-      {
-        id: 6,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
 
   //3rd
   {
@@ -215,8 +223,61 @@ export const myProjects = [
 
 //4 project
 
- {
+{
     id: 4,
+    title: "Edemy- A online course selling web app",
+    description: "A online course selling web app where student can buy course, and teacher can sell course",
+    subDescription: [
+      "Built an interactive online course platform where students can browse, purchase, and access courses easily.",
+      "Allows teachers to create, manage, and sell courses with full control over content and pricing.",
+      "Implements secure authentication and role-based access for students and instructors.",
+      "Features a smooth enrollment and payment process for a hassle-free learning experience.",
+      "Provides lifetime or time-based course access with progress tracking for students.",
+      "Designed to connect learners and educators, making online education simple and scalable."
+    ],
+    href: "https://lms-gs.vercel.app/",
+    frontendRepo: "https://github.com/shazid25/Learner_Hub_Client.git",
+    backendRepo: "https://github.com/shazid25/Learner_Hub_Server.git",
+    logo: "",
+    image: "/assets/projects/edemy.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.webp",
+      },
+      {
+        id: 4,
+        name: "Express.js",
+        path: "/assets/logos/Expressjs.png",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.png",
+      },
+      {
+        id: 6,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+
+    //5 project
+
+ {
+    id: 5,
     title: "DriveEasy",
     description:
       "Car rental service platform",
@@ -263,8 +324,8 @@ export const myProjects = [
   },
 
 
-  //5 project
 
+  //6 project
 
    {
     id: 5,
@@ -314,12 +375,12 @@ export const myProjects = [
   },
 
 
-  //project 6
+  //project 7
 
 
 
    {
-    id: 6,
+    id: 7,
     title: "PhuDu",
     description:
       "A doctor appointment booking platform",
@@ -365,10 +426,10 @@ export const myProjects = [
 
 
 
-  //project 7
+  //project 8
 
    {
-    id: 7,
+    id: 8,
     title: "Animated Zentry Gaming Web",
     description:
       "",
@@ -408,7 +469,7 @@ export const myProjects = [
    
   
 
-  //8th project
+  //9th project
 
   
 
