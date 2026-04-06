@@ -17,7 +17,7 @@ const Hero = () => {
     { text: "-> Node.js, Express.js, NestJS, REST APIs", color: "text-blue-400" },
     { text: "-> Auth: JWT, Clerk, Better Auth", color: "text-blue-300" },
     { text: "db.connect --provider=prisma", color: "text-green-400" },
-    { text: "Connecting: PostgreSQL, MongoDB, MySQL, Redis, Firebase", color: "text-yellow-400" },
+    { text: "Connecting: PostgreSQL, MongoDB, Firebase", color: "text-yellow-400" },
     { text: "check --deployment-status", color: "text-green-400" },
     { text: "Vercel: Online | GitHub: Connected | Postman: Testing OK", color: "text-gray-400" },
     { text: "ssh remote@malaysia-furniture-project", color: "text-green-400" },
@@ -31,7 +31,7 @@ const Hero = () => {
     if (visibleLines.length < terminalLines.length) {
       const timer = setTimeout(() => {
         setVisibleLines((prev) => [...prev, terminalLines[prev.length]]);
-      }, 500); 
+      }, 500);
       return () => clearTimeout(timer);
     }
   }, [visibleLines]);
@@ -47,9 +47,9 @@ const Hero = () => {
     <section className="bg-[#030712] font-mono overflow-hidden mt-25 w-full m-0 p-0">
       {/* Grid gap remains for side-by-side spacing, but vertical margins/padding are gone */}
       <div className="w-full grid grid-cols-1 lg:grid-cols-12 gap-0 items-stretch border-b border-gray-800">
-        
+
         {/* Left Side: Professional Summary */}
-        <motion.div 
+        <motion.div
           className="lg:col-span-5 flex flex-col justify-between bg-[#030712] border-r border-gray-800"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -69,7 +69,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-gray-400 text-lg md:text-xl mt-4 mb-0 leading-relaxed border-l-4 border-indigo-500 pl-4">
-              Building scalable digital architectures from <span className="text-white">Dhaka to the world</span>. 
+              Building scalable digital architectures from <span className="text-white">Dhaka to the world</span>.
               I prioritize maintainable logic and high-performance engineering.
             </p>
 
@@ -79,18 +79,18 @@ const Hero = () => {
                   Projects <Rocket size={20} />
                 </button>
               </Link>
-              
-              <Link to="/contact" className="flex-1">
+
+              <a href="/assets/Irfan_Shazid_Resume.pdf" download className="flex-1">
                 <button className="w-full py-6 border-l border-gray-800 text-gray-400 font-bold hover:text-white transition-all bg-[#0d1117]/50">
-                  Contact
+                  Download Resume
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </motion.div>
 
         {/* Right Side: Auto-Scrolling Terminal */}
-        <motion.div 
+        <motion.div
           className="lg:col-span-7 relative w-full bg-[#0d1117]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -110,13 +110,13 @@ const Hero = () => {
             </div>
 
             {/* Terminal Body - height expanded to occupy space */}
-            <div 
+            <div
               ref={scrollRef}
               className="p-6 text-sm md:text-base h-[600px] lg:h-full overflow-y-auto scroll-smooth flex flex-col gap-2"
             >
               <AnimatePresence>
                 {visibleLines.map((line, index) => (
-                  <motion.div 
+                  <motion.div
                     key={index}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -129,8 +129,8 @@ const Hero = () => {
                   </motion.div>
                 ))}
               </AnimatePresence>
-              
-              <motion.div 
+
+              <motion.div
                 animate={{ opacity: [0, 1, 0] }}
                 transition={{ duration: 0.8, repeat: Infinity }}
                 className="flex items-center gap-2 mt-0"
