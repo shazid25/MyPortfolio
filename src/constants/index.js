@@ -111,64 +111,10 @@ export const myProjects = [
     ],
   },
 
-  //2nd project
 
-{
-  id: 2,
-  title: "GreenCart - Fresh Grocery Delivery",
-  description: "A modern full-stack grocery e-commerce platform focused on fresh produce and fast delivery.",
-  subDescription: [
-    "Built a user-friendly platform for ordering fresh groceries, fruits, and daily essentials.",
-    "Features categorized shopping for organic veggies, fresh fruits, dairy, bakery, and more.",
-    "Implements a streamlined cart and checkout process for a seamless user experience.",
-    "Highlights key selling points: fastest delivery, freshness guarantee, and affordable prices.",
-    "Includes a subscription section for users to get the latest offers and exclusive discounts.",
-    "Trusted by thousands of customers, aiming to simplify the grocery shopping experience.",
-  ],
-  href: "https://greencart-gs.vercel.app/",
-  frontendRepo: "https://github.com/yourusername/greencart-frontend",
-  backendRepo: "https://github.com/yourusername/greencart-backend",
-  logo: "",
-  image: "/assets/projects/grocery.jpeg",
-  tags: [
-    {
-      id: 1,
-      name: "JavaScript",
-      path: "/assets/logos/javascript.svg",
-    },
-    {
-      id: 2,
-      name: "React",
-      path: "/assets/logos/react.svg",
-    },
-    {
-      id: 3,
-      name: "Node.js",
-      path: "/assets/logos/nodejs.webp",
-    },
-    {
-      id: 4,
-      name: "Express.js",
-      path: "/assets/logos/Expressjs.png",
-    },
-    {
-      id: 5,
-      name: "MongoDB",
-      path: "/assets/logos/mongodb.png",
-    },
-    {
-      id: 6,
-      name: "TailwindCSS",
-      path: "/assets/logos/tailwindcss.svg",
-    },
-  ],
-},
-
-
-
-  //3rd
+  //2rd
   {
-    id: 3,
+    id: 2,
     title: "Medicare - Multi-vendor Medicine Platform",
     description:
       "A comprehensive multi-vendor medicine e-commerce platform with role-based access control",
@@ -221,10 +167,10 @@ export const myProjects = [
   },
 
 
-//4 project
+//3 project
 
 {
-    id: 4,
+    id: 3,
     title: "Edemy- A online course selling web app",
     description: "A online course selling web app where student can buy course, and teacher can sell course",
     subDescription: [
@@ -274,10 +220,10 @@ export const myProjects = [
     ],
   },
 
-    //5 project
+    //4 project
 
  {
-    id: 5,
+    id: 4,
     title: "DriveEasy",
     description:
       "Car rental service platform",
@@ -325,7 +271,7 @@ export const myProjects = [
 
 
 
-  //6 project
+  //5 project
 
    {
     id: 5,
@@ -375,12 +321,12 @@ export const myProjects = [
   },
 
 
-  //project 7
+  //project 6
 
 
 
    {
-    id: 7,
+    id: 6,
     title: "PhuDu",
     description:
       "A doctor appointment booking platform",
@@ -426,10 +372,10 @@ export const myProjects = [
 
 
 
-  //project 8
+  //project 7
 
    {
-    id: 8,
+    id: 7,
     title: "Animated Zentry Gaming Web",
     description:
       "",
@@ -469,15 +415,11 @@ export const myProjects = [
    
   
 
-  //9th project
+  //8th project
 
   
 
 ];
-
-
-
-
 
 
 
