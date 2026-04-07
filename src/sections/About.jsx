@@ -94,7 +94,7 @@ const About = () => {
         >
           <motion.div className="absolute inset-0" initial={{ scale: 1.1 }} animate={{ scale: 1 }} transition={{ duration: 1.2 }}>
             <img
-              src="/assets/me.jpg" 
+              src="/assets/me2.jpeg" 
               className="w-full h-full object-cover"
               alt="Irfan Shazid"
               loading="eager" 
