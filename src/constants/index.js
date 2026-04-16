@@ -1,59 +1,73 @@
 export const myProjects = [
 
 
-  // {
-  //   id: 1,
-  //   title: "GreenCart - Fresh Grocery Delivery",
-  //   description:
-  //     "A modern full-stack grocery e-commerce platform focused on fresh produce and fast delivery.",
-  //   subDescription: [
-  //     "Built a user-friendly platform for ordering fresh groceries, fruits, and daily essentials.",
-  //     "Features categorized shopping for organic veggies, fresh fruits, dairy, bakery, and more.",
-  //     "Implements a streamlined cart and checkout process for a seamless user experience.",
-  //     "Highlights key selling points: fastest delivery, freshness guarantee, and affordable prices.",
-  //     "Includes a subscription section for users to get the latest offers and exclusive discounts.",
-  //     "Trusted by thousands of customers, aiming to simplify the grocery shopping experience.",
-      
-  //   ],
-  //   href: "https://greencart-gs.vercel.app/",
-  //   logo: "",
-  //   image: "/assets/projects/grocery.jpeg",
-  //   tags: [
-      
-  //      {
-  //       id: 1,
-  //       name: "JavaScript",
-  //       path: "/assets/logos/javascript.svg",
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "React",
-  //       path: "/assets/logos/react.svg",
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "Node.js",
-  //       path: "/assets/logos/nodejs.webp",
-  //     },
-  //     {
-  //       id: 4,
-  //       name: "Express.js",
-  //       path: "/assets/logos/Expressjs.png",
-  //     },
-  //     {
-  //       id: 5,
-  //       name: "MongoDB",
-  //       path: "/assets/logos/mongodb.png",
-  //     },
-  //     {
-  //       id: 6,
-  //       name: "TailwindCSS",
-  //       path: "/assets/logos/tailwindcss.svg",
-  //     },
-  //   ],
-  // },
 {
-    id: 1,
+  id: 1,
+  title: "Green Mart - Multi-Vendor E-Commerce & Delivery System",
+  description:
+    "A production-grade, multi-tenant ecosystem connecting vendors, customers, and delivery partners in one high-performance platform.",
+  subDescription: [
+    "Architected a sophisticated 5-tier role-based system (Super Admin, Admin, Vendor, Delivery, Customer) using Next.js 15 and TypeScript.",
+    "Integrated Stripe for secure payment processing with automated status updates via real-time backend webhooks.",
+    "Developed dedicated vendor dashboards for inventory control, product analytics, and independent shop management.",
+    "Engineered a real-time delivery assignment system allowing admins to bridge the gap between vendors and riders.",
+    "Implemented SEO-optimized Blog and FAQ engines with full CRUD capabilities and rich-text support.",
+    "Built a modern, responsive 'Glassmorphism' UI using Tailwind CSS and Framer Motion for a premium user experience.",
+    "Ensured strict data integrity and type-safety across the stack using Prisma ORM and Zod schema validation."
+  ],
+
+  href: "https://multivendor-phi.vercel.app/",
+  frontendRepo: "https://github.com/shazid25/Multi-Vendor-Ecommerce-Delivery-System",
+  backendRepo: "https://github.com/shazid25/Multi-Vendor-Ecommerce-Delivery-System",
+  logo: "/assets/projects/green-mart.png",
+  image: "/assets/projects/green-mart.png",
+  
+  // Demo Credentials for Portfolios/Testing
+  credentials: [
+    { role: "Super Admin", email: "irfanshazd814@gmail.com", pass: "irfanshazd814@gmail.com" },
+    { role: "Admin", email: "driveintocode@gmail.com", pass: "driveintocode@gmail.com" },
+    { role: "Vendor", email: "ishazid57@gmail.com", pass: "ishazid57@gmail.com" },
+    { role: "Delivery Man", email: "jossjossjosss62@gmail.com", pass: "jossjossjosss62@gmail.com" }
+  ],
+
+  tags: [
+    {
+      id: 1,
+      name: "Next.js 15",
+      path: "/assets/logos/nextjs.jpeg",
+    },
+    {
+      id: 2,
+      name: "TypeScript",
+      path: "/assets/logos/typescript.jpeg",
+    },
+    {
+      id: 3,
+      name: "TailwindCSS",
+      path: "/assets/logos/tailwindcss.svg",
+    },
+    {
+      id: 4,
+      name: "Prisma",
+      path: "/assets/logos/prisma.jpeg",
+    },
+    {
+      id: 5,
+      name: "PostgreSQL",
+      path: "/assets/logos/postgresql.jpeg",
+    },
+    {
+      id: 6,
+      name: "Stripe",
+      path: "/assets/logos/stripe.svg",
+    }
+  ],
+},
+
+
+//project 2
+{
+    id: 2,
     title: "Learn-Stack - Enterprise LMS Platform",
     description:
       "A high-performance, production-ready Learning Management System with AI-powered features and premium animations.",
@@ -112,9 +126,9 @@ export const myProjects = [
   },
 
 
-  //2rd
+  //3rd
   {
-    id: 2,
+    id: 3,
     title: "Medicare - Multi-vendor Medicine Platform",
     description:
       "A comprehensive multi-vendor medicine e-commerce platform with role-based access control",
@@ -167,10 +181,10 @@ export const myProjects = [
   },
 
 
-//3 project
+//4 project
 
 {
-    id: 3,
+    id: 4,
     title: "Edemy- A online course selling web app",
     description: "A online course selling web app where student can buy course, and teacher can sell course",
     subDescription: [
@@ -220,10 +234,10 @@ export const myProjects = [
     ],
   },
 
-    //4 project
+    //5 project
 
  {
-    id: 4,
+    id: 5,
     title: "DriveEasy",
     description:
       "Car rental service platform",
@@ -271,10 +285,10 @@ export const myProjects = [
 
 
 
-  //5 project
+  //6 project
 
    {
-    id: 5,
+    id: 6,
     title: "Plant Health Tracker",
     description:
       "Use can track the health details of a plant",
@@ -321,12 +335,12 @@ export const myProjects = [
   },
 
 
-  //project 6
+  //project 7
 
 
 
    {
-    id: 6,
+    id: 7,
     title: "PhuDu",
     description:
       "A doctor appointment booking platform",
@@ -372,10 +386,10 @@ export const myProjects = [
 
 
 
-  //project 7
+  //project 8
 
    {
-    id: 7,
+    id: 8,
     title: "Animated Zentry Gaming Web",
     description:
       "",
@@ -415,7 +429,7 @@ export const myProjects = [
    
   
 
-  //8th project
+  //9th project
 
   
 
